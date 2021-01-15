@@ -1,11 +1,9 @@
 import React, {useState} from 'react';
 import moment from 'moment';
-import Moment from 'react-moment';
 import '../scss/TimeBox.scss';
 
 const TimeBox = () => {
 
-  const [birthTime, setBirthTime] = useState(moment('2021/1/15 00:00:00').format('hh:mm:ss'));
   const [seconds, setNowSeconds] = useState(moment().format('hh:mm:ss'));
   const [minutes, setNowMinutes] = useState('');
   const [isMessage, setIsMessage] = useState(false);
