@@ -1,0 +1,32 @@
+img {
+  margin-top: 1rem;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+
+.slick {
+  margin-top: 1.5rem;
+
+  p {
+    font-family: 'Nanum Gothic';
+    font-weight: 600;
+    font-size: 2.3rem;
+    border-top: 2px solid #00af91;
+    border-bottom: 2px solid #00af91;
+    width: 30%;
+    padding: .5rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+    color: #00af91;
+  }
+}
+
+.slick__title {
+  font-family: 'Nanum Gothic';
+  font-weight: 600;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+
+}
