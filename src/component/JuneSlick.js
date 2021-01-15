@@ -24,7 +24,6 @@ const JuneSlick = () => {
       <Slider {...options} >
         <img src="./img/1.jpg" alt="img" />
         <img src="./img/2.jpg" alt="img" />
-        <img src="./img/3.jpg" alt="img" />
         <img src="./img/4.jpg" alt="img" />
       </Slider>
     </div>
